@@ -1,0 +1,135 @@
+{
+  "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4;1",
+  "@type": "Interface",
+  "contents": [
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:RawSensorValue;1",
+          "@type": "Telemetry",
+          "displayName": {
+              "en": "Raw Sensor Value"
+          },
+          "name": "RawSensorValue",
+          "schema": "float"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:VoltageMV;1",
+          "@type": [
+              "Telemetry",
+              "Voltage"
+          ],
+          "displayName": {
+              "en": "Voltage(mV)"
+          },
+          "name": "VoltageMV",
+          "schema": "integer",
+          "unit": "millivolt"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:current;1",
+          "@type": [
+              "Telemetry",
+              "Current"
+          ],
+          "displayName": {
+              "en": "current "
+          },
+          "name": "current",
+          "schema": "integer",
+          "unit": "ampere"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:Latitude;1",
+          "@type": [
+              "Telemetry",
+              "Latitude"
+          ],
+          "displayName": {
+              "en": "Latitude"
+          },
+          "name": "Latitude",
+          "schema": "double",
+          "unit": "degreeOfArc"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:Longitude;1",
+          "@type": [
+              "Telemetry",
+              "Longitude"
+          ],
+          "displayName": {
+              "en": "Longitude"
+          },
+          "name": "Longitude",
+          "schema": "double",
+          "unit": "degreeOfArc"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:Location;1",
+          "@type": [
+              "Property",
+              "Location"
+          ],
+          "displayName": {
+              "en": "Location"
+          },
+          "name": "Location",
+          "schema": "geopoint",
+          "writable": false
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:Country;1",
+          "@type": "Property",
+          "displayName": {
+              "en": "Country"
+          },
+          "name": "Country",
+          "schema": "string"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:City;1",
+          "@type": "Property",
+          "displayName": {
+              "en": "City"
+          },
+          "name": "City",
+          "schema": "string"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:VoltageMv;1",
+          "@type": "Property",
+          "displayName": {
+              "en": "Voltage(Mv)"
+          },
+          "name": "VoltageMv",
+          "schema": "integer",
+          "unit": "millivolt"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:Current;1",
+          "@type": "Property",
+          "displayName": {
+              "en": "Current"
+          },
+          "name": "Current",
+          "schema": "integer",
+          "unit": "ampere"
+      },
+      {
+          "@id": "dtmi:theElitesEMonitorApp:TheEMonitorAPPTemplate_3m4:PowerConsumption;1",
+          "@type": "Property",
+          "displayName": {
+              "en": "Power Consumption"
+          },
+          "name": "PowerConsumption",
+          "schema": "double",
+          "unit": "kilowattHour"
+      }
+  ],
+  "displayName": {
+      "en": "The-E-Monitor-APP-Template"
+  },
+  "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+  ]
+}
