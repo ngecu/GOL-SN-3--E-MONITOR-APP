@@ -1,7 +1,7 @@
 # E-MONITOR APP
-![Image Description](images\gallery.jpg)
-![Image Description](images\gallery2.jpg)
-![Image Description](images\gallery3.jpg)
+![Image Description](.\images\gallery.jpg)
+![Image Description](.\images\gallery2.jpg)
+![Image Description](.\images\gallery3.jpg)
 
 https://www.youtube.com/watch?v=pvPrJUoY-uA&ab_channel=TheE-MonitorAPP
 
